@@ -1,5 +1,5 @@
 #include <iostream>
-#include "classes.hpp"
+#include "polynomial.hpp"
 using namespace std;
 
 /*int main() {
@@ -72,7 +72,7 @@ int main() {
 	cout<<"(P*Q)(x) = "<<p*q<<endl;
 }*/
 
-/*int main() {
+int main() {
   Polynomial p;
   p.addTerm(10, 1);
   p.addTerm(6, -22);
@@ -92,7 +92,7 @@ int main() {
   cout<<"(P*Q)(1) = "<<(p*q).evaluate(1)<<endl;
   cout<<"(P*Q)(3) = "<<(p*q).evaluate(3)<<endl;
   cout<<"(P*Q)(-8) = "<<(p*q).evaluate(-8)<<endl;
-}*/
+}
 
 /*int main() {
   Polynomial p;
@@ -122,7 +122,7 @@ int main() {
   cout<<"Q(x) = "<<q<<endl;
 }*/
 
-int main() {
+/*int main() {
   Polynomial p;
   p.addTerm(9, 9);
   p.addTerm(8, -18);
@@ -136,4 +136,4 @@ int main() {
   cout<<"P(x) = "<<p<<endl;
   cout<<"P(2) = "<<p.evaluate(2)<<endl;
   cout<<"P(-3) = "<<p.evaluate(-3)<<endl;
-}
+}*/
